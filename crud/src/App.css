@@ -1,0 +1,103 @@
+#root {
+  display: flex;
+  height: 100vh;
+}
+
+.appWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  min-height: 500px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  width: 150px;
+  align-items: center;
+}
+
+.Btn {
+  box-sizing: border-box;
+  font-size: 28px;
+  background: none;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 0px;
+}
+
+.Btn:hover {
+  cursor: pointer;
+}
+
+.updateBtn {
+  color: rgb(7, 194, 7);
+}
+
+.formBtn { 
+  align-self: flex-end;
+  position: absolute;
+  right: 5px;
+  bottom: 10px;
+}
+
+textarea {
+  box-sizing: border-box;
+  resize: none;
+  height: 150px;
+  width: inherit;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.CardBtn {
+  background-color: white;
+  font-size: 14px;
+  color: red;
+  font-weight: 700;
+  position: absolute;
+  right: -15px;
+  top: -15px;
+  width: 30px;
+  height: 30px;
+}
+
+label {
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+form {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.textareaWrapper {
+  width: inherit;
+  position: relative;
+}
+
+.appUl {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 300px;
+  position: relative;
+  list-style-type: none;
+  border: 1px solid black;
+  padding: 10px;
+  margin-right: 50px;
+  margin-bottom: 25px;
+}
+
+.cardText {
+  word-wrap: break-word;
+}
